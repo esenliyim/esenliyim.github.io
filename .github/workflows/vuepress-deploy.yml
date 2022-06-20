@@ -13,5 +13,6 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_REPO: esenliyim/esenliyim.github.io
           BUILD_SCRIPT: yarn && yarn docs:build
+          TARGET_BRANCH: gh_pages
           BUILD_DIR: docs/.vuepress/dist
           CNAME: https://www.esenliyim.com
