@@ -12,7 +12,8 @@
         "vuepress-theme-gungnir": "2.0.0-alpha.25"
     },
     "scripts": {
-        "docs:dev": "vuepress dev docs"
+        "docs:dev": "vuepress dev docs",
+        "docs:build": "vuepress build docs"
     },
     "dependencies": {
         "vuepress-plugin-chart": "^2.0.0-alpha.25"
