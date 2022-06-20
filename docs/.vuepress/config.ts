@@ -35,7 +35,7 @@ export default defineUserConfig({
         personalInfo: {
             name: "Emre Şenliyim",
             avatar: "/img/avatar.jpg",
-            description: "I don't want 250g of olives",
+            description: "Full stack developer who doesn't want 250g of olives",
             sns: {
                 github: 'esenliyim',
                 email: 'esenliyim@gmail.com',
@@ -77,7 +77,7 @@ export default defineUserConfig({
             // tags page
             tags: {
                 // optional: subtitle of tags page
-                subtitle: 'Hey! Here is tags page!',
+                subtitle: 'Check out what topics I have written about',
 
                 // optional: paths to and masks of the tags page cover images
                 bgImage: {
@@ -97,6 +97,9 @@ export default defineUserConfig({
                     mask: 'rgba(64, 118, 190, 0.5)',
                 }
             }
+        },
+        themePlugins: {
+          chartjs: true
         }
     }),
     markdown: {

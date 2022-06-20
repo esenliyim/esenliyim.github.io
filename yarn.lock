@@ -1329,7 +1329,7 @@
     "@vue/compiler-ssr" "3.2.37"
     "@vue/shared" "3.2.37"
 
-"@vue/shared@3.2.36", "@vue/shared@^3.2.33":
+"@vue/shared@3.2.36":
   version "3.2.36"
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.2.36.tgz#35e11200542cf29068ba787dad57da9bdb82f644"
   integrity sha512-JtB41wXl7Au3+Nl3gD16Cfpj7k/6aCroZ6BbOiCMFCMvrOpkg/qQUXTso2XowaNqBbnkuGHurLAqkLBxNGc1hQ==
@@ -1370,16 +1370,6 @@
     envinfo "^7.8.1"
     esbuild "^0.14.41"
 
-"@vuepress/client@2.0.0-beta.45":
-  version "2.0.0-beta.45"
-  resolved "https://registry.yarnpkg.com/@vuepress/client/-/client-2.0.0-beta.45.tgz#49a1b818fb730dc07ebb0dacf1e2def608107961"
-  integrity sha512-4oK77LI5FpHvF6bZxREfLdWfOgAZroDkyy46moRopasg72UeXjfvOTb/6tIKaNQP6e/Kn2ubRxVeLe7DR5d9Ng==
-  dependencies:
-    "@vue/devtools-api" "^6.1.4"
-    "@vuepress/shared" "2.0.0-beta.45"
-    vue "^3.2.33"
-    vue-router "^4.0.15"
-
 "@vuepress/client@2.0.0-beta.48":
   version "2.0.0-beta.48"
   resolved "https://registry.yarnpkg.com/@vuepress/client/-/client-2.0.0-beta.48.tgz#a13d0d514ed3f9095caaa52bf5e173bb9e1570f7"
@@ -1389,19 +1379,6 @@
     "@vuepress/shared" "2.0.0-beta.48"
     vue "^3.2.36"
     vue-router "^4.0.15"
-
-"@vuepress/core@2.0.0-beta.45":
-  version "2.0.0-beta.45"
-  resolved "https://registry.yarnpkg.com/@vuepress/core/-/core-2.0.0-beta.45.tgz#503f2abe246c25a36df54c27a3969a46d3e0db04"
-  integrity sha512-SeTzsNKc+E41b0p5nNiWRqMIxXM0Pu59MAaSkd1SFqEa8vtxDQZvgdM2xIbmCEejVSnKqLJwyyN+F2vEvPF9WA==
-  dependencies:
-    "@vuepress/client" "2.0.0-beta.45"
-    "@vuepress/markdown" "2.0.0-beta.45"
-    "@vuepress/shared" "2.0.0-beta.45"
-    "@vuepress/utils" "2.0.0-beta.45"
-    gray-matter "^4.0.3"
-    toml "^3.0.0"
-    vue "^3.2.33"
 
 "@vuepress/core@2.0.0-beta.48":
   version "2.0.0-beta.48"
@@ -1415,19 +1392,6 @@
     gray-matter "^4.0.3"
     toml "^3.0.0"
     vue "^3.2.36"
-
-"@vuepress/markdown@2.0.0-beta.45":
-  version "2.0.0-beta.45"
-  resolved "https://registry.yarnpkg.com/@vuepress/markdown/-/markdown-2.0.0-beta.45.tgz#f973f7de1d7b503efde0a24902794f6d86ee3fda"
-  integrity sha512-wm9NsJ17G5Cw7idj+ChZVrdKkcTkx+1DwAZDgJcQESdvDTmggQYonZa8vSY1rLxw50VmHU2v8WsiaYTTn91slA==
-  dependencies:
-    "@types/markdown-it" "^12.2.3"
-    "@vuepress/shared" "2.0.0-beta.45"
-    "@vuepress/utils" "2.0.0-beta.45"
-    markdown-it "^13.0.1"
-    markdown-it-anchor "^8.6.3"
-    markdown-it-emoji "^2.0.2"
-    mdurl "^1.0.1"
 
 "@vuepress/markdown@2.0.0-beta.48":
   version "2.0.0-beta.48"
@@ -1584,13 +1548,6 @@
     "@vuepress/utils" "2.0.0-beta.48"
     vue "^3.2.36"
 
-"@vuepress/shared@2.0.0-beta.45":
-  version "2.0.0-beta.45"
-  resolved "https://registry.yarnpkg.com/@vuepress/shared/-/shared-2.0.0-beta.45.tgz#6d099af2a9a1125a399f32a249ef7a67e00d9025"
-  integrity sha512-lYj+rgMtQ6liWjvzVy7jGux/Eix5ExbUy8b2uFAAsSE4v5wrdGeVgcFunVb40VPK3Mu0uyW4AvhCsPteLRUp1A==
-  dependencies:
-    "@vue/shared" "^3.2.33"
-
 "@vuepress/shared@2.0.0-beta.48":
   version "2.0.0-beta.48"
   resolved "https://registry.yarnpkg.com/@vuepress/shared/-/shared-2.0.0-beta.48.tgz#b1c815232e26639210aae6ddc8c9d1e7e091b026"
@@ -1621,22 +1578,6 @@
     sass "^1.52.1"
     vue "^3.2.36"
     vue-router "^4.0.15"
-
-"@vuepress/utils@2.0.0-beta.45":
-  version "2.0.0-beta.45"
-  resolved "https://registry.yarnpkg.com/@vuepress/utils/-/utils-2.0.0-beta.45.tgz#ae5c36d3aa5ef7fc0ccbb9758ecda079df15e04e"
-  integrity sha512-vdhRs+Q3tuJiznQ3Vlckumpciv7uKm6kTcqkAInZJdtpa/vS+SAeeS3q8ThERC0I7z1mnW/s/CGkVlLKhrfjKA==
-  dependencies:
-    "@types/debug" "^4.1.7"
-    "@types/fs-extra" "^9.0.13"
-    "@vuepress/shared" "2.0.0-beta.45"
-    chalk "^4.1.2"
-    debug "^4.3.4"
-    fs-extra "^10.1.0"
-    globby "^11.0.4"
-    hash-sum "^2.0.0"
-    ora "^5.4.1"
-    upath "^2.0.1"
 
 "@vuepress/utils@2.0.0-beta.48":
   version "2.0.0-beta.48"
@@ -1918,7 +1859,7 @@ chalk@^4.0.2, chalk@^4.1.0, chalk@^4.1.2:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chart.js@^3.7.1, chart.js@^3.8.0:
+chart.js@^3.8.0:
   version "3.8.0"
   resolved "https://registry.yarnpkg.com/chart.js/-/chart.js-3.8.0.tgz#c6c14c457b9dc3ce7f1514a59e9b262afd6f1a94"
   integrity sha512-cr8xhrXjLIXVLOBZPkBZVF6NDeiVIrPLHcMhnON7UufudL+CNeRrD+wpYanswlm8NpudMdrt3CHoLMQMxJhHRg==
@@ -3542,7 +3483,7 @@ magic-string@^0.25.0, magic-string@^0.25.7:
   dependencies:
     sourcemap-codec "^1.4.8"
 
-markdown-it-anchor@^8.6.3, markdown-it-anchor@^8.6.4:
+markdown-it-anchor@^8.6.4:
   version "8.6.4"
   resolved "https://registry.yarnpkg.com/markdown-it-anchor/-/markdown-it-anchor-8.6.4.tgz#affb8aa0910a504c114e9fcad53ac3a5b907b0e6"
   integrity sha512-Ul4YVYZNxMJYALpKtu+ZRdrryYt/GlQ5CK+4l1bp/gWXOG2QWElt6AqF3Mih/wfUKdZbNAZVXGR73/n6U/8img==
@@ -4356,7 +4297,7 @@ vue-router@^4.0.16:
   dependencies:
     "@vue/devtools-api" "^6.0.0"
 
-vue@^3.2.33, vue@^3.2.36:
+vue@^3.2.36:
   version "3.2.36"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.2.36.tgz#8daa996e2ced521708de97d066c7c998e8bc3378"
   integrity sha512-5yTXmrE6gW8IQgttzHW5bfBiFA6mx35ZXHjGLDmKYzW6MMmYvCwuKybANRepwkMYeXw2v1buGg3/lPICY5YlZw==
@@ -4391,7 +4332,7 @@ vuepress-plugin-blog2@2.0.0-beta.84:
     vue-router "^4.0.16"
     vuepress-shared "2.0.0-beta.84"
 
-vuepress-plugin-chart@2.0.0-alpha.25:
+vuepress-plugin-chart@2.0.0-alpha.25, vuepress-plugin-chart@^2.0.0-alpha.25:
   version "2.0.0-alpha.25"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-chart/-/vuepress-plugin-chart-2.0.0-alpha.25.tgz#c752a0f05a9a37e73059c905efc1f4f7c70c02a2"
   integrity sha512-5taemyI2ymSwPE1p1gq2qHkVW/nND/BshQMBYCgfITRwV1NFzHuDHXdl6Gm2EymoSwH6NcInhGd7veIgxV0PCQ==
@@ -4404,20 +4345,6 @@ vuepress-plugin-chart@2.0.0-alpha.25:
     chart.js "^3.8.0"
     markdown-it "^13.0.1"
     vue "^3.2.36"
-
-vuepress-plugin-chart@^2.0.0-alpha.23:
-  version "2.0.0-alpha.23"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-chart/-/vuepress-plugin-chart-2.0.0-alpha.23.tgz#b84996628ac405df6e06e07b246b46916c2a8f8f"
-  integrity sha512-7WKo9uqPqCaJOq4FSrKQLtyOjy2LsPizzoVF07z7pWJAeAS73tIGQn/Hi9xH186z6qtHu7uFeATz7rh78bOi4w==
-  dependencies:
-    "@types/markdown-it" "^12.2.3"
-    "@vuepress/client" "2.0.0-beta.45"
-    "@vuepress/core" "2.0.0-beta.45"
-    "@vuepress/shared" "2.0.0-beta.45"
-    "@vuepress/utils" "2.0.0-beta.45"
-    chart.js "^3.7.1"
-    markdown-it "^13.0.1"
-    vue "^3.2.33"
 
 vuepress-plugin-code-enhance@2.0.0-alpha.25:
   version "2.0.0-alpha.25"
