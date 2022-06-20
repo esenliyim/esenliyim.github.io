@@ -7,7 +7,7 @@
     "license": "MIT",
     "devDependencies": {
         "vuepress": "^2.0.0-beta.48",
-        "vuepress-theme-gungnir": "^2.0.0-alpha.24"
+        "vuepress-theme-gungnir": "^2.0.0-alpha.25"
     },
     "scripts": {
         "docs:dev": "vuepress dev docs",
