@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-1db5b78d","path":"/tags/data-analysis/","title":"data analysis | Tags","lang":"en-US","frontmatter":{"title":"data analysis | Tags","layout":"Tags","blog":{"type":"category","name":"data analysis","key":"tag"}},"excerpt":"","headers":[],"git":{},"filePathRelative":null}');export{a as data};

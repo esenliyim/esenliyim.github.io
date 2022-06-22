@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-d70073e0","path":"/tags/imdb/","title":"imdb | Tags","lang":"en-US","frontmatter":{"title":"imdb | Tags","layout":"Tags","blog":{"type":"category","name":"imdb","key":"tag"}},"excerpt":"","headers":[],"git":{},"filePathRelative":null}');export{t as data};
